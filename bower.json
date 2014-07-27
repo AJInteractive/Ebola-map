@@ -1,0 +1,22 @@
+{
+  "name": "Map",
+  "version": "0.0.0",
+  "authors": [
+    "Laurian Gridinoc <laurian@gridinoc.name>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "*",
+    "console-polyfill": "0.1.1",
+    "leaflet-providers": "1.0.5",
+    "leaflet-MiniMap": "*"
+  }
+}
