@@ -1,6 +1,8 @@
 var map = L.map('map', {
-    center: [9.318990192397917,  -8.2177734375],
-    zoom: 6,
+    // center: [9.318990192397917,  -8.2177734375],
+    center: [10.746969318460001, -0.6591796875],
+    // zoom: 6,
+    zoom: 5,
     maxZoom: 7,
     scrollWheelZoom: false
 });
@@ -119,10 +121,12 @@ Tabletop.init({
         loadFeatureCollection(map, GIN, defaultStyle);
         loadFeatureCollection(map, LBR, defaultStyle);
         loadFeatureCollection(map, SLE, defaultStyle);
+        loadFeatureCollection(map, NGA, defaultStyle);
 
         loadFeatureCollection(miniMap._miniMap, GIN, miniStyle, true);
         loadFeatureCollection(miniMap._miniMap, LBR, miniStyle, true);
         loadFeatureCollection(miniMap._miniMap, SLE, miniStyle, true);
+        loadFeatureCollection(miniMap._miniMap, NGA, miniStyle, true);
 
         loadFeatureCollection(map, CIV, defaultStyle2);
         loadFeatureCollection(map, COD, defaultStyle2);
