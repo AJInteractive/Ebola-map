@@ -1,6 +1,7 @@
 var map = L.map('map', {
     // center: [9.318990192397917,  -8.2177734375],
-    center: [10.746969318460001, -0.6591796875],
+    //center: [10.746969318460001, -0.6591796875],
+    center: [10.833305983642491, -3.779296875],
     // zoom: 6,
     zoom: 5,
     maxZoom: 7,
@@ -122,11 +123,16 @@ Tabletop.init({
         loadFeatureCollection(map, LBR, defaultStyle);
         loadFeatureCollection(map, SLE, defaultStyle);
         loadFeatureCollection(map, NGA, defaultStyle);
+        loadFeatureCollection(map, SEN, defaultStyle);
+        //Port Harcourt
+        loadFeatureCollection(map, NGA2, defaultStyle);
 
         loadFeatureCollection(miniMap._miniMap, GIN, miniStyle, true);
         loadFeatureCollection(miniMap._miniMap, LBR, miniStyle, true);
         loadFeatureCollection(miniMap._miniMap, SLE, miniStyle, true);
         loadFeatureCollection(miniMap._miniMap, NGA, miniStyle, true);
+        loadFeatureCollection(miniMap._miniMap, SEN, miniStyle, true);
+        loadFeatureCollection(miniMap._miniMap, NGA2, miniStyle, true);
 
         loadFeatureCollection(map, CIV, defaultStyle2);
         loadFeatureCollection(map, COD, defaultStyle2);
